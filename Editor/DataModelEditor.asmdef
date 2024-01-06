@@ -1,0 +1,21 @@
+{
+    "name": "DataModelEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3c74e53b13bde39428f4a2e5c899143f",
+        "GUID:6ac568dd7a2af634895b6119885b2204",
+        "GUID:d12d6801382f9ad4392c8257d47edbb6",
+        "GUID:ea6a6314f279f814facc8c48a7d3c9f1",
+        "GUID:7fadca414dede194f95d4f8d2a1e32dc",
+        "GUID:b73ef07971851e14fa74ae50b76f8225"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

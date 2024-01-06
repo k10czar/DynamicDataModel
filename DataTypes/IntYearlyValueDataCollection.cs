@@ -1,0 +1,1 @@
+[System.Serializable] public class IntYearlyValueDataCollection : YearlyValueDataCollection<int> { }
