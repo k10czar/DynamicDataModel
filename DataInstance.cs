@@ -154,7 +154,7 @@ public class DataInstance : ScriptableObject, IEditorAssetValidationProcess
         Debug.LogError( $"{"EditorFind".Colorfy( Verbs )}( {name.ToStringOrNull().Colorfy( Keyword )}, {modelNameDebug} ) cannot find any {"DataInstance".Colorfy( TypeName )} that does match booth criteria\nCandidates with matching name:\n{SB.ToString()}" );
 #else
         SB.Clear();
-        Debug.LogError( $"{"EditorFind".Colorfy( Verbs )}( {name.ToStringOrNull().Colorfy( Keyword )}, {modelNameDebug} ) and this method cannot be called outside the editor" );
+        Debug.LogError( $"EditorFind( {name.ToStringOrNull()}, {modelName.ToStringOrNull()} ) {ConsoleMessage.ONLY_EDITOR}" );
 #endif
         return null;
     }
